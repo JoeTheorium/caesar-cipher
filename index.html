@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar Cipher - By Joe Theorium</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1>Caesar Cipher</h1>
+    <form id="cipher" autocomplete="off">
+      <input id="input-original" type="text" name="text" spellcheck="false" placeholder="Enter the text...">
+    </form>
+    <div id="result"></div>
+    <div class="range">
+      <input id="range" type="range" name="range" value="3" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+      <output>3</output>
+    </div>
+  </main>
+
+</body>
+</html>
