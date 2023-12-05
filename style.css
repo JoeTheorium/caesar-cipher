@@ -2,7 +2,7 @@
 
 :root {
   --color-terminal: #292b36;
-  --borde-redondo: 4px;
+  --round-border: 4px;
 }
 
 * {
@@ -29,7 +29,7 @@ input, button {
 main {
   padding: 25px;
   box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
-  border-radius: var(--borde-redondo);
+  border-radius: var(--round-border);
 }
 
 h1 {
@@ -45,16 +45,16 @@ h1 {
   margin: 10px 0 0;
   padding: 10px;
   color: #fff;
-  border-top-left-radius: var(--borde-redondo);
-  border-top-right-radius: var(--borde-redondo);
+  border-top-left-radius: var(--round-border);
+  border-top-right-radius: var(--round-border);
 }
 
 #result {
   height: 20px;
   color: #5af78d;
   padding: 0 10px 10px;
-  border-bottom-left-radius: var(--borde-redondo);
-  border-bottom-right-radius: var(--borde-redondo);
+  border-bottom-left-radius: var(--round-border);
+  border-bottom-right-radius: var(--round-border);
 }
 
 .range {
@@ -67,7 +67,7 @@ h1 {
 
 input[type='range'] {
   -webkit-appearance: none;
-  border-radius: var(--borde-redondo);
+  border-radius: var(--round-border);
   background:var(--color-terminal);
   margin: 0;
   padding: 0 5px;
